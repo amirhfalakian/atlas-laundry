@@ -15,12 +15,12 @@ const AboutUs = () => {
             </div>
             <div className="col-md-6 text-center text-md-right">
               <div className="d-inline-flex align-items-center">
-                <a className="btn text-white" href="/">
-                  صفحه اصلی
-                </a>
-                <i className="fas fa-angle-right text-white"></i>
                 <a className="btn text-white disabled" href="">
                   درباره ما
+                </a>
+                <i className="fas fa-angle-left text-white"></i>
+                <a className="btn text-white" href="/">
+                  صفحه اصلی
                 </a>
               </div>
             </div>

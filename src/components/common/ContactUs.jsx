@@ -20,7 +20,12 @@ const ContactUs = () => {
                     <i className="fa fa-2x fa-map-marker-alt text-secondary"></i>
                   </div>
                   <h5 className="font-weight-medium m-0 mt-2">
-                    123 Street, New York, USA
+                    <a
+                      href="https://goo.gl/maps/w8WHQAuc1qWx85PV9"
+                      target="_blank"
+                    >
+                      گیلان، چابکسر
+                    </a>
                   </h5>
                 </div>
               </div>
@@ -37,7 +42,10 @@ const ContactUs = () => {
                     <i className="fa fa-2x fa-envelope-open text-secondary"></i>
                   </div>
                   <h5 className="font-weight-medium m-0 mt-2">
-                    info@example.com
+                    <a href="mailto:atlaslaundry@gmail.com">
+                      {" "}
+                      atlaslaundry@gmail.com
+                    </a>
                   </h5>
                 </div>
               </div>
@@ -54,7 +62,7 @@ const ContactUs = () => {
                     <i className="fa fa-2x fa-phone-alt text-secondary"></i>
                   </div>
                   <h5 className="font-weight-medium m-0 mt-2">
-                    +0134 267 0081
+                    <a href="tel:+0134 267 0081"> +0134 267 0081</a>
                   </h5>
                 </div>
               </div>
@@ -71,9 +79,10 @@ const ContactUs = () => {
                         type="text"
                         className="form-control"
                         id="name"
-                        placeholder="Your Name"
+                        placeholder="نام"
                         required="required"
                         data-validation-required-message="Please enter your name"
+                        style={{ direction: "rtl" }}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -84,9 +93,10 @@ const ContactUs = () => {
                         type="email"
                         className="form-control"
                         id="email"
-                        placeholder="Your Email"
+                        placeholder="ایمیل"
                         required="required"
                         data-validation-required-message="Please enter your email"
+                        style={{ direction: "rtl" }}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -97,9 +107,10 @@ const ContactUs = () => {
                     type="text"
                     className="form-control"
                     id="subject"
-                    placeholder="Subject"
+                    placeholder="موضوع"
                     required="required"
                     data-validation-required-message="Please enter a subject"
+                    style={{ direction: "rtl" }}
                   />
                   <p className="help-block text-danger"></p>
                 </div>
@@ -108,19 +119,20 @@ const ContactUs = () => {
                     className="form-control"
                     rows="6"
                     id="message"
-                    placeholder="Message"
+                    placeholder="متن پیام"
                     required="required"
                     data-validation-required-message="Please enter your message"
+                    style={{ direction: "rtl" }}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <div>
+                <div style={{ display: "flex", justifyContent: "center" }}>
                   <button
                     className="btn btn-primary py-3 px-5"
                     type="submit"
                     id="sendMessageButton"
                   >
-                    Send Message
+                    ارسال
                   </button>
                 </div>
               </form>

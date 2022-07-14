@@ -62,21 +62,21 @@ const TopNav = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav ml-auto py-0">
-                <NavLink to="/" className="nav-item nav-link">
-                  صفحه اصلی
+                <NavLink to="/contact" className="nav-item nav-link">
+                  تماس با ما
                 </NavLink>
-                <NavLink to="/about" className="nav-item nav-link">
-                  درباره ما
+                <NavLink to="/pricing " className="nav-item nav-link">
+                  قیمت ها
                 </NavLink>
                 <NavLink to="/services" className="nav-item nav-link">
                   خدمات
                 </NavLink>
-                <NavLink to="/pricing" className="nav-item nav-link">
-                  قیمت ها
+                <NavLink to="/about" className="nav-item nav-link">
+                  درباره ما
                 </NavLink>
 
-                <NavLink to="/contact" className="nav-item nav-link">
-                  تماس با ما
+                <NavLink to="/" className="nav-item nav-link">
+                  صفحه اصلی
                 </NavLink>
               </div>
             </div>
